@@ -2,8 +2,11 @@
   "name": "h5bs",
   "private": "true",
   "dependencies": {
+    "cached-path-relative": "^1.0.2",
     "foundation-sites": "^6.5.0-rc.3",
-    "jquery": "^2.2.0",
+    "jquery": "^3.0.0",
+    "lodash": "^4.17.5",
+    "minimatch": "^3.0.2",
     "motion-ui": "^1.2.3",
     "what-input": "^4.1.0"
   },
