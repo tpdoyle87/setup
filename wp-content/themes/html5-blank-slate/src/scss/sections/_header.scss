@@ -18,7 +18,7 @@ body {
 
   li {
     align-items: center;
-    border-radius: 2px;
+    border-radius: 2px 2px 0 0;
     justify-content: center;
     list-style: none;
     padding: 0 1.25rem;
@@ -37,7 +37,7 @@ body {
 .sticky-shrinknav-header-title {
   transition: all 0.3s ease;
   position: relative;
-  transform: translateY($sticky-shrinknav-menu-height / .9);
+  transform: translateY($sticky-shrinknav-menu-height / .8);
   margin-bottom: 0;
   color: $white;
 }
@@ -47,7 +47,8 @@ body {
   height: $sticky-shrinknav-hero-height;
   align-items: center;
   justify-content: center;
-  background-color: lighten(rgb(30,30,30), 10%);
+  background-color: darken(rgb(30, 30, 30), 10%);
+  object-fit: cover;
   text-align: center;
   position: fixed;
   top: 0;

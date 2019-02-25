@@ -10,7 +10,7 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title><?php wp_title( '|', true, 'right' ); ?></title>
+    <title><?php wp_title( '|', true, 'right' ); ?>Through the Darkness</title>
 
     <?php // Place favicon.ico and apple-touch-icon.png in the root of the domain ?>
 
@@ -24,8 +24,8 @@
 <header class="sticky-shrinknav-header">
   <h1 class="sticky-shrinknav-header-title">Through the Darkness</h1>
   <ul class="menu flex-container align-center-middle sticky-shrinknav-menu">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li>
+    <li><a href="<?php echo home_url() ?>">Home</a></li>
+    <li><a href="<?php echo home_url(), "/about" ?>">About</a></li>
+    <li><a href="<?php echo home_url(), "/contact"; ?>">Contact</a></li>
   </ul>
 </header>

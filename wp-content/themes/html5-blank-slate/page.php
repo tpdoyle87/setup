@@ -6,23 +6,16 @@
 
 get_header(); ?>
 
-<div class="content-wrap page-content" role="main">
+<div class="content-wrap page-content blog-index view-height" role="main">
 
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-    <article <?php post_class( 'group' ); ?> role="article">
-        <h1><?php the_title(); ?></h1>
+    <article class="group blog-index introduction" role="article">
+        <h1 class="title"><?php the_title(); ?></h1>
         <?php the_content(); ?>
     </article>
 
     <?php endwhile; endif; ?>
-
- <div>d</div>
- <div>d</div>
- <div>d</div>
- <div>d</div>
- <div>d</div>
- <div>d</div>
 
 </div><!-- end content -->
 

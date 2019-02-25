@@ -11,9 +11,9 @@
       <h4 class="marketing-site-footer-name">Through the Darkness</h4>
       <p>A collection of experiences, both good and bad, as one man tells about his battle with depression</p>
       <ul class="menu marketing-site-footer-menu-social simple flex-container align-spaced align-middle social-icons">
-        <li><a href="#"><i class="fab fa-youtube-square fa-2x" aria-hidden="true"></i></a></li>
-         <li><a href="#"><i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
-         <li><a href="#"><i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
+        <li><a href="http://www.youtube.com"><i class="fab fa-youtube-square fa-2x" aria-hidden="true"></i></a></li>
+         <li><a href="http://www.facebook.com"><i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
+         <li><a href="http://www.twitter.com""><i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
       </ul>
     </div>
     <div class="medium-6 cell grid-x align-center">

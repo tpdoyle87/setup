@@ -4,6 +4,10 @@
     outline: none;
 }
 
+body {
+  background-color: rgb(235, 235, 235)
+}
+
 a {
     text-decoration: none;
     transition: color 0.3s ease;
@@ -17,3 +21,4 @@ hr {
     border: 0;
     border-top: 1px solid #ccc;
 }
+
